@@ -1,0 +1,55 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{7B3E7818-CFDD-4926-9701-E74C32D4CACC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Nuitrack">
+      <UniqueIdentifier>{AD2D85B5-719B-467D-A905-3EFB728B4603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Nuitrack\include">
+      <UniqueIdentifier>{B4D342E8-77CA-4CAA-962D-431D2041B2C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Nuitrack\src">
+      <UniqueIdentifier>{27F0A825-2B5F-45C6-8BCB-B4D9A6C3B180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BoxmanApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BoxmanApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Cinder-Nuitrack.h">
+      <Filter>Blocks\Cinder-Nuitrack\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\Cinder-Nuitrack.cpp">
+      <Filter>Blocks\Cinder-Nuitrack\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
