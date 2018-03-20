@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-Nuitrack"
+	id="com.daanvanhasselt.cinder-nuitrack"
+	author="Daan van Hasselt"
+	summary="Wraps the Nuitrack SDK"
+	url="https://bitbucket.org/daanvanhasselt/Cinder-Nuitrack"
+	git="git@bitbucket.org:daanvanhasselt/cinder-nuitrack.git"
+	>
+	<supports os="msw" />
+	<includePath>include</includePath>
+	<header>include/Cinder-Nuitrack.h</header>
+	<source>src/Cinder-Nuitrack.cpp</source>
+	
+	<staticLibrary>lib/Nuitrack/lib/win64/nuitrack.lib</staticLibrary>
+	<staticLibrary>lib/Nuitrack/lib/win64/middleware.lib</staticLibrary>
+	<includePath>lib/Nuitrack/include</includePath>	
+</block>
+</cinder>
